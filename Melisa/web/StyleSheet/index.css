@@ -1,0 +1,87 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(arka.jpg);
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.d-üst {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(255, 50, 50, 0.705);
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    margin-top: -5px;
+    font-size: 40px;
+}
+
+.d-iç {
+    background-color: rgba(255, 50, 50, 0.405);
+    width: 85%;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 80px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+}
+
+#yonetici_btn {
+    border: none;
+    float: left;
+    margin-left: 150px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+#yonetici_btn:hover {
+    transition: 500ms;
+    box-shadow: rgba(255, 56, 102, 0.836) 0px 0px 10px 10px;
+    }
+
+#user_btn {
+    border: none;
+    margin-left: 100px;
+    float: left;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 110px;
+    cursor: pointer;
+}
+
+#user_btn:hover {
+    transition: 500ms;
+    box-shadow: rgba(255, 56, 102, 0.836) 0px 0px 10px 10px;
+}
+
+#admin_btn {
+    border: none;
+    margin-left: 100px;
+    width: 250px;
+    float: left;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#admin_btn:hover {
+    transition: 500ms;
+    box-shadow: rgba(255, 56, 102, 0.836) 0px 0px 10px 10px;
+}

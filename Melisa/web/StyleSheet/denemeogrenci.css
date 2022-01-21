@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 10, 150);
+}
+
+.info {
+    
+    width: 290px;
+    height: 100px;
+    border-radius: 80px;
+    box-shadow: black 0px 0px 10px 2px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: rgba(255, 56, 102, 0.836);
+}
+
+
+
+.info1 {
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: purple;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.cikis {
+    float: right;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: black 0px 0px 10px 2px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.cikis:hover {
+    color: white;
+    background-color: black;
+    box-shadow: white 0px 0px 10px 5px;
+    border: none;
+    transition: 500ms;
+}
+
+.baslik {
+    position: absolute;
+    margin-left: 545px;
+    font-family: calibri;
+    font-size: 50px;
+    margin-top: 30px;  
+}
+
+.cizgi {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: black 0px 5px 10px 5px;
+}
+
+.orta {
+    position: fixed;
+    width: 90%;
+    height: 450px;
+    background-color: purple;
+    border-radius: 50px;
+    margin-left: 75px;
+    margin-top: 170px;
+    box-shadow: black 0px 0px 10px 5px;
+}
+
+.fizik {
+    width: 90%;
+    height: 100px;
+    background-color: rgba(255, 56, 102, 0.836);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 90px;
+    box-shadow: black 0px 0px 10px 5px;
+}
+
+.turkce {
+    width: 90%;
+    height: 100px;
+    background-color: rgba(255, 56, 102, 0.836);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 80px;
+    box-shadow: black 0px 0px 10px 5px;
+}
+
+.a {
+    margin-top: 30px;
+    margin-left: 120px;
+    float: left;    
+}
+.a1 {
+    margin-top: 30px;
+    margin-left: 125px;
+    float: left;
+}
+
+.b {
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;    
+}
+
+.gir {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: black 0px 0px 10px 2px;
+    margin-left: 275px;
+    margin-top: 30px;
+}
+
+.gir:hover {
+    color: white;
+    background-color: black;
+    box-shadow: red 0px 0px 10px 5px;
+    border: none;
+    transition: 500ms;
+}

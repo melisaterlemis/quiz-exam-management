@@ -1,0 +1,79 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(arka.jpg);
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.d-üst {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(255, 50, 50, 0.705);
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    margin-top: -5px;
+    font-size: 40px;
+}
+
+#formdiv {
+    background-color: rgba(255, 50, 50, 0.405);
+    width: 400px;
+    height: 380px;
+    border-radius: 15px;
+    margin-top: 60px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+}
+
+#kullaniciadi {
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 75px;
+}
+
+#kullaniciadi:hover {
+    transition: 500ms;
+    box-shadow: rgba(255, 56, 102, 0.836) 0px 0px 10px 10px;
+    }
+
+#sifre {
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+#sifre:hover {
+    transition: 500ms;
+    box-shadow: rgba(255, 56, 102, 0.836) 0px 0px 10px 10px;
+}
+
+#giris {
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: -50px;
+}
+
+#giris:hover {
+    transition: 500ms;
+    box-shadow: rgba(255, 56, 102, 0.836) 0px 0px 10px 10px;
+}
